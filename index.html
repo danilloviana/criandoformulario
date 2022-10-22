@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset= "UTF-8">
+    <title>WebForms</title>
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <form action="http://hub.fatecrl.edu.br/sobrino/recebe.php" method="POST" target="_blank">
+
+
+
+        <label for= "nome" >Nome</label> <br>    
+        <input type="nome" id ="nome" name="nome" size = "25" maxlength="25" placeholder="Seu Nome" class="focar" required> <br>
+       
+        <br>
+        <fieldset class="borda">
+        <legend> Podemos contatar você por e-mail? </legend>
+        <input type="radio" id="responde" name="resposta" value="Sim" checked="checked">
+        <label for="responde">SIM</label>
+        <input type="radio" id="responde2" name="resposta" value="Nao">
+        <label for="responde">NÃO</label>
+        </fieldset>
+       
+        <br>
+        
+        <input type="submit" value="Cadastrar" class="inverterCor">
+        
+
+
+    </form>
+
+
+</body>
+
+</html>
